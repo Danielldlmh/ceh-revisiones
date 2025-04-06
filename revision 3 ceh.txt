@@ -13,8 +13,17 @@ comando nmap par ano confirmar que este en linea    nmap -Pn ip
 ver cuentas en windows       net user ( confirmar personas validas y qcuales no estan logueados)
  
 
+criptografia
+hashcalc
+veracrypt - encriptar o montar carpetas o unidades 
+descifrar hadhes
+crackstation.net
+decrypt
+hashes.com
 
-
+codificador de texto 
+bctextencoder
+cryptool
 
 enumeration
 
