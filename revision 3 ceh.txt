@@ -104,6 +104,11 @@ sqlmap -u "http://www.xyz.com/profile.aspx?id=1" --cookie="[cookie value that yo
 6.2 Use systeminfo for windows to get all os version
 6.3 Use uname -a for linux to get os version
 
+ver que tipos de ataques es vulnerables se usa owasp zap
+
+
+
+
 Android
 
 1- nmap ip -sV -p 5555    (Scan for adb port)
