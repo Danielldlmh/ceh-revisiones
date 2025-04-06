@@ -1,0 +1,759 @@
+Footprinting and reconaissance
+
+
+Footprinting and reconaissance
+
+Perform footprinting through search engines
+
+Gather information using advanced Google hacking techniques
+
+https://www.blackhat.com/presentations/bh-europe-05/BH_EU_05-Long.pdf)
+
+Gather information from video search engines
+
+https://mattw.io/voutube-metadatas
+
+Gather information from FTP search engines
+
+https://www.searchftps.net/s
+
+https://www.freewareweb.com/#tpsearch.shtmld
+
+Gather information from IoT search engines
+
+Chttpsi//shodan.io)
+
+Perform footprinting through web services
+
+Find the company's domains and sub-domains using Netcraft
+
+https://www.netcraft.com
+
+Gather personal information using PeekYou online people search service
+
+https://www.peekyou.com
+
+Gather an email list using thetarvester (https://github.com/laramies/theHarvester)
+
+Gather information using deep and dark web searching
+
+https://www.torproject.org/es/
+
+Determine target OS through passive footprinting
+
+https://search.censys.io/?a)
+
+Perform website footprinting
+
+Gather information about a target vebsite using ping command line utility
+
+Gather information about a target website using Photor
+
+https://github.com/sOmd3v/Photon)
+
+Gather information about a target website using Central Ops
+
+lhttps://centralops.net/cos
+
+Extract a company's data using Web Data Extractor
+
+http://www.webextractor.com
+
+muerto  a target vebsite using HTTrack Web Site Copie
+
+https://www.nttrack.com
+
+
+Perform email Footprinting
+
+Gather information about a target by tracing emails using eMailTrackerPro
+
+https://wwww.visualware.com/install.htm?e=upgradejavavmin=0&x=emt%20(2).exe#upgradejavavm
+
+(https://download.visualware.coms)
+
+Perform Whois Footprinting
+
+Perform Whois lookup using DomainTools
+
+Perform DNS footprinting
+
+Gather DNS information using nslookup command line utility and online tool Perform reverse DNS lookup using reverse IP domain check and DNSRecon
+
+(https://www.yougetsignal.coms
+
+Chttps://github.com/darkoperator/dnsrecon
+
+Gather information of subdomain and DNS records using SecurityTrails
+
+Chttps://secuntytrails.coms
+
+Perform network footprinting
+
+Locate the network range
+
+https://www.arinnet/about/welcome/regions
+
+Perform network tracerouting in Windows and Linux Machines
+
+Perform footprinting using various footprinting tools
+
+Footprinting a target using Reconng Footprinting a target using Maltego
+
+Footprinting
+
+a target using OSRFramework
+
+https://githus.com/i3visio/osrframework)
+
+Footprinting
+
+a target using FOCA
+
+(https://github.com/ElevenPaths/FOCA)
+
+Footprinting a target using BillCipher (https://github.com/bahatiphill/Billcipher)
+
+Footprinting a target using OSINT Framework
+
+https://osintframework.coms
+
+
+
+netsh interface in show global netsh interface ip show interfaces
+
+ping de tamaño 1500 tenemos 1500 bytes de datos
+
+si envio 1500 envio 1500+20 bytes de header +8 bytes de header ICMP = 1528 bytes
+
+ICMP no lleva header TCP ni UDP que son otros 20 bytes
+
+si envio 1472 envio 1472 + 20 bytes de header + 8 bytes de header ICMP = 1500
+
+
+
+
+Crypthography
+
+Encrypt the information using various cryptography tools
+
+Calculate one-way hashes using HashCalc https://www.slavasoft.com/hashcalcs
+
+Calculate MD5 hashes using MD5 Calculator (http://www.md5calculator.coms
+
+Calculate MD5 hashes using HashMyFiles (https://www.nirsoft.net/utils/hash_my_files.html)
+
+Perform file and text message encryption using Cryptoforge
+
+https://www.cryptoforge.com.ar/descargar)
+
+Encrypt and decrypt data using BCTextEncoder (https://www.jetico.com/downloads/free-security-tools)
+
+Create a self-signed certificate
+
+Create and use self-signed certificates
+
+Perform email encryption
+
+Perform email encryption using RMail (https://rmail.com/#signup)
+
+Perform disk encryption
+
+Perform disk encryption using VeraCrypt (https://www.veracrypt.fr/code/VeraCrypts
+
+Perform disk encryption using BitLocker Drive Encryption Pertorm disk encryption using Rohos Disk Encryption
+
+Chttos://rohos.com/download/
+
+Perform cryptanalysis using various cryptanalysis tools
+
+Perform cryptanalysis using CrypTool
+
+https://www.cryptool.org/ens
+
+Perform cryptanalysis using AlphaPeeler (https://alphapeeler.sourceforge.net/indexi.htm)
+
+
+How to check whether a TPM chie is present
+
+e a e e ptee e on aye p ad tne pnte ro apon tuc Tent naragrert cocale bios or eft and cesin the se
+
+Note that your windows il system may display the message "Compatible TPM cannot be found." In this case, it is important to verify wheth Enable BitLocker step by stee
+
+To make Bitlocker work without using TPM on your Windows il machine, you need to adjust group policies on your machine. Here is how.
+
+Press the Windows key - R to open the Run dialog box.
+
+Type gpedit.msc to open the Local Group Policy Editor and then press Enter.
+
+Expand Computer Configuration» Administrative Templates > Windows Components › BitLocker Drive Encryption > Operating System Drives.
+
+Right-click Require additional authentication at startup and then click Edit to modify the policy.
+
+Select Enabled and then select Allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive).
+
+Click Apply and then Ok.
+
+Close the Local Groue policy Edston.
+
+Open the command prompt (CMD).
+
+Type gpupdate force and press Enter to force group policy change. close the CMD.
+
+
+
+
+
+Cloud computing
+
+Perform 53 bucket enumeration using various 53 bucket enumeration tools
+
+Enumerate 53 buckets using lazys3 (https://github.com/nahamsec/lazys3)
+
+Enumerate 53 buckets using S35canner (https://github.com/sa7mon/53Scanner)
+
+Exploit 53 buckets
+
+Exploit open 53 buckets using AWS CLI
+
+Perform privilege escalation to gain higher privileges
+
+Escalate IAM user privileges by exploiting misconfigured user policy
+
+
+
+
+
+
+Iot and OT Hacking
+
+Perform footprinting using various footprinting techniques
+
+Gather information using online footprinting tools
+
+Capture and analyze IoT device traffic
+
+Catpure and analyze IT traffic using wireshark https://www.bevywise.com/iot-simulators
+
+
+
+Hacking Wireless
+
+Perform wireless traffic analysis
+
+Wi-Fi packet analysis using Wireshark
+
+Perform wireless attacks
+
+Crack a WEP network using Aircrack-ng Crack a WPA2 network using Aircrack-ng
+
+
+WPA file
+
+https://wiki.wireshark.org/HowToDecrypt802.11
+
+WEP file
+
+https://github.com/Hjdskes/ET4397in/tree/master/functional
+
+https://github.com/Hjdskes/ET4397in
+
+
+
+Evading IDS, Firewalls, and Honeypots
+
+Perform intrusion detection using various tools
+
+Detect intrusions using Snort
+
+(https://www.snort.org/downloads#) bajamos la 2.9.15
+
+Detect malicious network traffic using ZoneAlar FREE FIREWALL
+
+https://www.zonealarm.com/es/business#ffu-section)
+
+Detect malicious network traffic using HoneyBOT (https://github.com/Phoenix2875/Da-O-ad-Hacker-V2)
+
+Evade Firewalls using various evasion techniques
+
+Bypass windows firewall using Nmap evasion techniques
+
+Bypass firewall rules using HTTP-FTP tunneling
+
+https://web.archive.org/web/20080306054336/http://wwwhtthost.com/download.boa)
+
+Bypass antivirus using Metasploit templates
+
+Bypass firewall through Windows BITSAdmin
+
+
+
+
+Denial Of Services
+
+Perform DoS and DDoS attacks using various Techniques
+
+Perform a Das attack (SYN flooding) on a target host using Metasploit
+
+Perform a Dos attack on a target host using hping3
+
+Perform a DoS attack using Raven-stonn
+
+https://github.com/Tmpertor/Raven-Storm)
+
+cur -s https://raw.githubusercontent.com/Taguar258/Raven-Storm/master/install.sh/ sudo bash -s)
+
+Perform a DDoS attack using HOIC
+
+(https://sourceforge.net/projects/high-oroit-ion-cannon?
+
+Perform a DDoS attack using LOIC
+
+https://sourceforge.net/projects/loic/
+
+Detect and protect against DoS and DDoS attacks etect and protect against DDoS attacks using Anti DDOS Guardie
+
+ttps://www.anti-ddos.neu
+
+
+
+
+Sniffing
+
+Perform active sniffing
+
+Perform MAC flooding using macof
+
+Perform a DHCP starvation attack using Yersinia
+
+Perform ARP poisoning using arpspoof
+
+Fertorm an Man-in-the-Middle (MITM) attack using Cain & Abel
+
+https://github.com/xchwarze/Cain)
+
+Chttps://web.archive.org/web/20190301221607/http//wwv.oxid.it/cain.htmll
+
+Spoof a MAC address using TMAC and SMAC
+
+Chttps://technitium.com/tmacs
+
+Chttps://smac-tool.coms
+
+Spoof a MAC address of Linux machine using macchanger
+
+Pertorm network sniffing using various sniffing tools
+
+Perform password sniffing using Wireshark
+
+Analyze a network using the Omnipeek Network Protocol Analyzer
+
+https://www.liveaction.com/products/omnipeek/
+
+Analyze a network using the Steelcentral Packet Analyzer https://wwww.riverbed.com/trial-downloads)
+
+Detect network sniffing
+
+Detect ARP poisoning and promiscuous mode in a switch-based network
+
+Detect ARP poisoning using the Capsa Network Analyzer
+
+https:/www.colasoft.com/download/arp_flood_arp_spoofing_arp_poisoning attack_solutionwith_capsa.php)
+
+$ pips install habu
+
+
+snmp banderas
+
+Host discovery con Ping ARP (Address resolution protocol)
+    Solo se posible se se encuentra en la misma red
+    ARP pide las MAC address de los equipos que hay en la red
+        # nmap -n -sn -PR <IPs>
+
+
+
+
+Host discovery con Ping ICMP (internet Control Message protocol)
+    Antes de realizar un ICMP tiene que ejecutarse una resolución ARP si está en la misma red    
+    Envia un ICMP Echo Request, filtrado por los firewall. Espera recibir un ICMP echo Reply  
+        # nmap -n -sn -PE <IPs>
+    Envia un ICMP Timestamp Request, menos filtrado que el anterior, espera recibir un ICMP Timestamp Reply
+        # nmap -n -sn -PP <IPs>
+    Envia un ICMP Address Mask Request, hay cortafuegos no lo filtran, espera recibir un ICMP AddMask reply
+        # nmap -n -sn -PM <IPs>
+
+
+
+Host discovery con Ping TCP SYN
+    EN este tipo de comandos para obtener la maxima funcionalidad es necesario lanzarlos como usuario
+    privilegiado, si no es así usa un TCP SYN Connect()
+    Utiliza la comunicación Tree Way Handshake, 
+    Enviando un paquete TCP vacío con la bandera SYN (sincronizar) al puerto 80 aunque es configurable
+        La respuesta puede ser SYN/ACK (Acknowledge) o RST
+    Se utliza el comando
+        # nmap -n -sn -PS <IPs>
+        # nmap -n -sn -PS21,22,23,25,80,443 <IPs>
+
+
+
+Host discovery con Ping TCP ACK
+    EN este tipo de comandos para obtener la maxima funcionalidad es necesario lanzarlos como usuario
+    privilegiado, si no tiene permisos ejecuta un TCP SN connect()
+    Utiliza la comunicación Tree Way Handshake, pero indicando que ya hay una comunicación iniciada, para
+    saltarse los firewalls 
+    Enviando un paquete TCP vacío con la bandera ACK (Acknowledge) al puerto 80 aunque es configurable
+        La respuesta puede ser RST si el equipo está encendido
+    Se utliza el comando
+        # nmap -n -sn -PA <IPs>
+        # nmap -n -sn -PA21,22,23,25,80,443 <IPs>
+    Para saltarse un firewall se suele enviar un PING SYN y ACK a la vez
+
+
+
+Host discovery con Ping UDP
+    Se envia un paquete UDP a los puertos que se indiquen en el comando, si no indicamos puertos se envian
+    al puerto 31338.
+    Si el puerto está cerrado llega una respuesta de puerto no alcanzables está abierto no se espera
+    respuesta.
+    Hay puertos que solo filtran TCP, por lo que usar UDP es un metodo para saltarlos
+    El comando a ejecutar seria:
+        # nmap -n -sn -PU <IPs>
+        # nmap -n -sn -PU21,22,23,24,25,
+
+
+El comando para ejecutar
+    # nmap -Pn -n -sS <IPs>
+El comando para ejecutar sobre un puerto determinado
+    # nmap -PN -n -sS p xxx <IPs>
+
+
+Para la detección de sistema operativo se utiliza el siguiente comando:
+    # nmap -T4 -O <IPs>
+    # nmap -T4 -O -Pn <IPs>
+    #nmap -T4 --script smb-os-discovery.nse 10.10.1.22
+    intenta determinar OS, nombre de equipo, grupo de trabajo sobre SMB (445, 139)
+        --osscan-guess --osscan-limit o --fuzzy para aproximar en caso de no encontrar los S.O
+
+
+Si queresmo hacer detección de servicios, S.O, traceroute y scripts de escaneo de información en un comando ejecutamos la
+detección agresiva:
+    # nmap -A <IPs>
+    # nmap -O -sV -sC --traceroute
+si queremos tener un informe
+    # nmap -Pn -sS -A -oN fichero.txt <IPs>
+    # nmap -Pn -sS -A -oA fichero.xml <IPs>
+y luego convertimos el fichero en HTML
+    # xsltproc fichero.xml -o resultado.html
+
+comando inicial revisar red
+
+
+nmap -PR -n -sS 192.168.1.0/24   (arp)
+nmap -Pn -n -sS 192.168.1.0/24  (sin icmp confirmación )
+
+
+
+
+
+System Hacking
+
+Gain access to the system
+
+To move danivas, hold mouse wheel or spacebar while dragging. or use the hand toch
+
+Exploit client-side vunerabilities and establish a VNC session (https://powersploit.readthedocs.io/en/latests
+
+sudo apt install xtightuncviewer
+
+Gain access to a remote system using Armitage
+
+Gain access to a remote system using Ninja Jonin (https://github.com/ErAz7/Jonin)
+
+Perform buffer overflow attact to gain access to a remote system
+
+Chttps://github.com/stephenbradshaw/vulnserver)
+
+https://github.com/kbandla/ImmunityDebugger)
+
+https://github.com/SkyBulk/exploit-development/tree/master)
+
+https://notes.offsec-journey.com/reverse-engineering/buffer-overflow)
+
+ertor privilege escalation to gain higher privilege:
+
+Escalate privileges using privilege escalation tools and exploit client-side vulnerabilitie:
+
+https://github.com/Alessandroz/BeRoot/releases) and (https://github.com/r3motecontrol/Ghostpack-CompiledBinaries
+
+Hack a Windows machine using Metasploit and perform post-exploitation using Meterpreter
+
+Escalate privileges by exploiting vulnerability punkit) in pkexec (Pokit or Policykit)
+
+(https://github.com/cyberark/Punkit-Hunter) (https://github.com/berdav/CVE-2021-4034)
+
+Escalate privileges in Linux machine by exploiting misconfigured NFS
+
+Escalate privileges by bypassing UAC and exploiting Sticky Keys
+
+Escalate privileges to gather hashdump using Mimikatz
+
+Maintain remote access and hide malicious activities
+
+User system monitoring and surveillance using Power Spy kttps://ematrixsoft.com/power-spy-sottware.php
+
+https://power-spy.en.softonic.com
+
+User system monitoring and surveillance using Spytech SpyAgent https://www.spytech-web.com/spyagent.shtml
+
+Hide files using NTFS streams
+
+Hide data using white space steganography (https://darkside.com.au/snows
+
+Image steganography using OpenStego and StegOnline
+
+https://www.openstego.coms
+
+Chttps://stegonline.georgeom.net/upload)
+
+Maintain
+
+Maintain persistence by abusing poot or logon autostart
+
+olexecution
+
+PATC
+
+
+clear logs to hide the evidence of compromise
+
+View, enable, and clear audit policies using Auditpol clear Windows machine logs using various utilities
+
+kttos://www.tenforums.com/tutorials/16588-clear-all-event-locs-event-viewer-indows.html
+
+Clear Linux machine logs using the BASH shell Hiding artifacts in windows, and Linux machines clear Windows machine logs using CCleaner
+
+https://wwww.ccleaner.com/ccleaner/dounload?ppc_code=012&ppc=abyc/src=aurds&gclid=EAIaIQobChMIyMmt_XuxgAMVNj4G,ABOWQaEEAAYASAAEgJrw_D_BuE)
+
+
+
+
+
+Vulnerability Analysis
+
+Perfor vulnerability research with vulnerability scoring systems and databases
+
+Perform vulnerability research in Common Weakness Enumeration (CWE)
+
+Is a category system for software vulnerabilities and weaknesses
+
+Common Weakness Enumeration Chttps://cwe.mitre.orgs
+
+Perform vulnerability research in Common Vulnerabilities and Exposures (CVE)
+
+Standardized identifiers for common software vulnerabilities and exposures
+
+Common Vunerabilities and Exposures (https://cve.mitre.orgs
+
+Perform vulnerability research in National Vulnerability Database (NVD)
+
+U.S. government repository of standards-based vulnerability management data
+
+The National Vulnerability Database (https://nvd.nist.gov/.
+
+Perform vulnerability assessment using various vulnerability assessment tools
+
+Perform vulnerability analysis using OpenVAS
+
+Perform vulnerability scanning using Nessus
+
+(https://es-la.tenable.com/products/nessus/activation-code)
+
+Chttps://www.tenable.com/dounloads/nessus?loginAttempted=true
+
+https://www.gfi.com/es/products-and-solutions/network-security-solutions/languard/request-a-demo)
+
+https://support.languard.gf.com/nc/en-us/articles/360015158349-Where-can-I-dounload-the-latest-lanGuard-installer-version-trial-or-an-earlierrelease
+
+Perform web servers and applications vulnerability scanning using CGI Scanner Nikto
+
+
+
+
+Sql injection
+
+Perform SQL injection attacks
+
+Perform an SQL injection attack on an MSSQL database
+
+Perform an SQL injection attack aginst MSSQL to extract databases using SQLMAP
+
+Detect SQLinjection vulnerabilities using various SQL injection detection tools
+
+Detect SQL injection vulnerabilities using DSSS (nttps://github.com/stamparm/DSSS)
+
+Detect SQL injection vulnerabilities using OW ASP ZAP
+
+
+
+
+Hacking Web Applications
+
+To moue car
+
+and tod
+
+Footprint the web infrastructure
+
+Perform web application reconnaissance using Nmap and Telnet
+
+Perform web application reconnaissance using Whatweb
+
+Perform web spidering using OW ASP ZAP
+
+Detect load balancers using various tools
+
+Identify web server directories using various tools
+
+gobuster dir -u [Target Website] -w home/attacker/Desttop/common txt, https://github.com/maurosoria/dirsearch
+
+git clone https://github.com/maurosoria/dirsearch.git -depth 1 pip3 install -r requeriments.txt python3 dirsearch.py-u http://www.moviescope.com -x 403
+
+Perform web application vulnerability scanning using Vega Chttps://subgraph.com/vega/download/index.en.html)
+
+Identify clickjacking vulnerability using clickjackPoc (https://github.com/Raiders0786/clickjackPoc)
+
+Perform web application attacks
+
+Perform a brute-force attack using Burp Suite Perform parameter tampering using Burp Suite
+
+Identify XSS vunerabilities in web applications using PunXSS (https://github.com/punOsec/PunXSS)
+
+Exploit parameter tampering and XSS vulnerabilities in web applications
+
+Perform cross-site request forgery (CSRA) attack
+
+Exploit a remote command execution vulnerability to compromise a target web server
+
+Enumerate and hack a web application using WPScan and Metasploit Exploit a file upload vulnerability at different security levels
+
+Gain access by exploiting Log"j vulnerability (https://github.com/kozmer/log4j-shell-poc
+
+
+
+
+Hacking web server 
+Footprint the weo server
+
+Information gathering using Ghost Eye (git clone https://github.com/BullsEye0/ghost_eyegit)
+
+Ferform web server reconnaissance using Skipfish (https://code.google.com/archive/p/skipfishs
+
+Footprint a web server using the httprecon Tool (https://www.computec.ch/projekte/httprecon/?)
+
+Footprint a web server using ID Serve (https://wwwgrc.com/id/idservehtm)
+
+Footprint a web server using Netcat and Tenet
+
+Enumerate web server information using Nmap Scripting Engine (NSE)
+
+Uniscan web server fingerprinting in Parrot Secunty (sudo apt install uniscan)
+
+Perform a web server attack
+
+Crack FTP credentials using a Dictionary Attack
+
+
+
+Installation skipfish (mediante repositorio Kali Linux)
+
+sudo apt update sudo apt upgrade
+
+sudo sh-c echo 'deb https://nttp.kaliorg/kali kali-rolling main non-free contrib' › /etc/apt/sources.list.d/kalilist" wget https://archive.kali.org/archive-key.asc'
+
+sudo apt-key add archive-key.asc sudo apt install aptitude
+
+sudo apt update (modificado respecto del video) sudo aptitude install -t kali-rolling skipfish
+
+
+
+Enumeration
+
+To move canvas, hold mouse wheel or spacebar whi
+
+egaggm
+
+Perform NetBIOS enumeration
+
+Perform NetBIOS enumeration using Windows command-line utilities
+
+Perform NetBIOS enumeration using Net.BIOS Enumerator
+
+Chttps://nbtenum.sourceforge.net/s
+
+Perform NetBIOS enumeration using an NSE Script
+
+Perform SNMP enumeration
+
+Perform SNMP enumeration using sump-check
+
+Perform SNMP enumeration using SoftPerfect Network Scanner https://www.softperfect.com/products/networkscanner/s
+
+Perform SNMP enumeration using SumpWalk
+
+(apt-get install sump)
+
+Perform SNMP enumeration using Nmap
+
+Perform LDAP enumeration
+
+Perform LDAP enumeration using Active Directory Explorer (AD Explorer) Chttps:/learn.microsoft.com/en-us/sysinternals/dounloads/adexplorer)
+
+Perform LDAP enumeration using/Python and Nmap
+
+Perform LDAP enumeration using Idapsearch
+
+Perform NFS enumeration
+
+Perform NFS enumeration using RPCScan and Super Enum
+
+(https://github.com/hegusung/RPCScan/https://github.com/p4pentest/SuperEnum)
+
+Perform DNS enumeration
+
+Perform DNS enumeration using zone transfer
+
+Perform DNS enumeration using DNSSEC zone walking (https://github.com/darkoperator/dnsrecon)
+
+Perform DNS enumeration using Nmap
+
+Perform SMTP Enumeration
+
+Perform SMTP enumeration using Nmap
+
+Perform RPC, SMB, and FTP enumeration
+
+Perform SMB and RPC enumeration using NetScanTools Pro Perform RPC, SMB, and FTP enumeration using Nmap
+
+Perform enumeration using various enumeration tools
+
+Enumerate information using Global Network Inventory
+
+Chttps://magnetosoft.com/product-global-network-inventorys
+
+Enumerate network resources using Advanced IP Scanner
+
+https://www.advanced-ip-scanner.com/ess
+
+Enumerate information from Windows and Samba hosts using Enuntlinux
+
+
+
+
+vulni check for specific known vulnerabilities search script map -script-updatedb nmap
+-script-trace
+nmap --script-help 
+samp+ →> -scriet
+mpa scrist-hele "category and/or category → -script "category map scrist httpoefault-accounts -script-args "http default-accounts basepath-/admini categore 'veb!"
+
+
+
