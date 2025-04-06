@@ -365,3 +365,7 @@ Useful Links
 
 https://book.thegurusec.com/certifications/certified-ethical-hacker-practical/steganography
 https://github.com/CyberSecurityUP/Guide-CEH-Practical-Master
+
+https://github.com/undergroundwires/CEH-in-bullet-points/blob/master/chapters/18-iot-and-ot/img/iot-5-layer-architecture.drawio
+
+https://github.com/Captain-Fancypants/CEH-in-bullet-points/blob/main/18%20-%20iot%20and%20ot.pdf
