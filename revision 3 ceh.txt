@@ -116,6 +116,16 @@ Android
 3- adb shell              (Access mobile device on parrot)
 4- pwd --> ls --> cd sdcard --> ls --> cat secret.txt (If you can't find it there then go to Downloads folder using: cd downloads)
 
+obtener archivo a revisar 
+hacerlo como root
+adb pull /direccion carpte/dfsa
+despues intalamos 
+apt install ent
+ent archivo1
+ent archivo2
+para ver el hash de cada uno es con sha384sum --help
+sha384sum nombrearchivo.
+
 Wireshark
 tcp.flags.syn == 1 and tcp.flags.ack == 0    (How many machines) or Go to statistics IPv4 addresses--> Source and Destination ---> Then you can apply the filter given
 tcp.flags.syn == 1   (Which machine for dos)
@@ -148,3 +158,32 @@ Check MySQL service running- nmap -p 3306 -iL ip.txt | grep open        (ip.txt 
 git https://github.com/dhabaleshwar/CEHPractical/blob/main/Everything%20You%20Need.md
 
 https://www.geeksforgeeks.org/nmap-command-in-linux-with-examples/?ref=gcse_outind
+
+
+saber que maquina tiene sql 
+nmap -sV ip/24
+nmap _A ip/24
+saber que maquina tiene rdp abierto y quien esta atacando 
+nmap _pn -p -sV 3389 IP 
+cuantos host estan activos en una red 
+nmap -sn 19.168.168.16/24
+
+
+fqdn o directorio activo comando
+nmap -p389 -sV -iL (target list)
+fqdn host:dc + domain:penterster.com  ( dc.pentester.com)
+
+
+
+ver ips estan abiertas ssh
+nmap -sV -p 22 192.168.0.0/24
+ssh kali@192.168.168.0.1
+password referencia pass@123
+sudo -i  (escalar privilegios)
+contraseña la misma de antes
+
+buscar
+find . -name root.txt
+
+revision vulnerabilidades
+nmap -Pn --script vuln 10.10.10.1
